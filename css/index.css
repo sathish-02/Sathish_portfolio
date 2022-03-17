@@ -210,6 +210,26 @@
   .dropdown {
     display: none;
   }
+
+  @media only screen and (min-width: 769px) and (max-width: 820px){
+    .navbar-toggler{
+      display: none;
+    }
+
+    .dropdown{
+      display: unset;
+    }
+  }
+
+  @media only screen and (min-width: 821px) and (max-width: 920px){
+    .navbar-toggler{
+      display: none;
+    }
+
+    .dropdown{
+      display: unset;
+    }
+  }
   
    @media only screen and (min-width: 426px) and (max-width: 768px){
     .blogs{
